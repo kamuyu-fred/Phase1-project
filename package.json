@@ -1,0 +1,14 @@
+{
+  "name": "space-city-weather",
+  "version": "1.0.0",
+  "description": "Minimal weather app",
+  "main": "index.html",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "weather"
+  ],
+  "author": "Fred Kamuyu",
+  "license": "ISC"
+}
