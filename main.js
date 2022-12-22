@@ -127,3 +127,4 @@ if (code == 1000) {
 
 app.lastElementChild.backgroundImage = 'url(./images/${timeOfDay}/cloudy.jpg)';
 
+btn.style.background = "#e5ba92";
