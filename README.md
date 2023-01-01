@@ -1,4 +1,4 @@
-# Phase1-project (Incomplete till 21:00)
+# Phase1-project (Incomplete )
 Space City Weather App (WIP)
 
 # Introduction
