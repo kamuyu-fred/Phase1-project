@@ -79,6 +79,7 @@ function fetchWeatherData() {
         })
 }
 
+
 TimePicker.innerHTML = data.current.temp_c + "&#176;";
 conditionOutput.innerHTML = data.current.condition.text;
 
@@ -95,7 +96,7 @@ timeOutput.innerHTML = time;
 nameOutput.innerHTML = date.location.name;
 //Icon URL ya weather
 const iconId = data.current.condition.icon.substr(
-    "//cdn.weatehrapi.com/weather/64x64/".length);
+    "//cdn.weatherapi.com/weather/64x64/".length);
 //convert it into local file
     icon.src = "./icons/" +iconId;
 
@@ -121,10 +122,36 @@ if (!data.current.is_day) {
 if (code == 1000) {
     //set BG to clear if weather is clear
 
-    app.getElementsByClassName.backgroundImage = 
+    app.style.backgroundImage = 
     `url(.images/${timeOfDay}/clear.jpg)`
 }
+
+btn.style.background = "#e5ba92";
+if(timeOfDay== "night") {
+    btn.style.background = "#181e27";
+}
+
 
 app.lastElementChild.backgroundImage = 'url(./images/${timeOfDay}/cloudy.jpg)';
 
 btn.style.background = "#e5ba92";
+if(timeOfDay == "night") {
+    btn.style.background = "#181e27";
+}
+else if (
+    code == 1003 ||
+    code == 1006 ||
+    code == 1009 ||
+    code == 1030 ||
+    code == 1069 ||
+    code == 1087 ||
+    code == 1135 ||
+    code == 1273 ||
+    code == 1276 ||
+    code == 1279 ||
+    code == 1282
+){
+    
+}
+
+

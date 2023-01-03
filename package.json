@@ -10,5 +10,13 @@
     "weather"
   ],
   "author": "Fred Kamuyu",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kamuyu-fred/Phase1-project.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kamuyu-fred/Phase1-project/issues"
+  },
+  "homepage": "https://github.com/kamuyu-fred/Phase1-project#readme"
 }
