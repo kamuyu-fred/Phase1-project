@@ -1,5 +1,5 @@
 # Phase1-project (Incomplete )
-Space City Weather App (WIP)
+Space City Weather App (WIP rebuild in progress)
 
 # Introduction
 
