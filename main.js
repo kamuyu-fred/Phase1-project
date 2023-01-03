@@ -126,32 +126,6 @@ if (code == 1000) {
     `url(.images/${timeOfDay}/clear.jpg)`
 }
 
-btn.style.background = "#e5ba92";
-if(timeOfDay== "night") {
-    btn.style.background = "#181e27";
-}
-
-
 app.lastElementChild.backgroundImage = 'url(./images/${timeOfDay}/cloudy.jpg)';
 
 btn.style.background = "#e5ba92";
-if(timeOfDay == "night") {
-    btn.style.background = "#181e27";
-}
-else if (
-    code == 1003 ||
-    code == 1006 ||
-    code == 1009 ||
-    code == 1030 ||
-    code == 1069 ||
-    code == 1087 ||
-    code == 1135 ||
-    code == 1273 ||
-    code == 1276 ||
-    code == 1279 ||
-    code == 1282
-){
-    
-}
-
-
